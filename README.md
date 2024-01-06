@@ -75,6 +75,7 @@ where:
   - MAC_SMARTPHONE: MAC address of the smartphone.
   - SNIFF_TIME: time (seconds) during which the tool sniffs the traffic
   - DELAY_TIME: time (seconds) during after which the tool starts the replay attack
+
     
 When the tool displays in console "Start triggering the device", the user needs to set the device in the OBVERSE state. <br />
 When the tool displays in console "Sniffing completed. The attack will start in `DELAY_TIME` seconds", the user needs to set the device in the REVERSE state. <br />

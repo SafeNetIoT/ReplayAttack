@@ -1,0 +1,63 @@
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692279822,"state":false,"sceneId":16,"dimming":85}}
+{"params":{"phoneIp":"10.14.0.8","phoneMac":"944250325975","register":true},"id":3,"method":"registration"}
+
+{"method":"registration","id":3,"env":"pro","result":{"mac":"d8a01149ef50","success":true}}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-53,"src":"andr","state":false,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"params":{"homeId":10246828,"phoneIp":"10.14.0.8","phoneMac":"944250325975","register":true},"id":5,"method":"registration"}
+
+{"method":"registration","id":5,"env":"pro","result":{"mac":"d8a01149ef50","success":true}}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"andr","state":false,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692279822,"state":false,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692279822,"state":false,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"params":{"orig":"andr","state":true},"id":6,"method":"setPilot"}
+
+{"method":"setPilot","id":6,"env":"pro","result":{"success":true}}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-53,"src":"andr","state":true,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692280094,"state":true,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692280094,"state":true,"sceneId":16,"dimming":85}}
+{"result":{"mac":"944250325975"},"method":"syncPilot"}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-53,"src":"hb","mqttCd":0,"ts":1692280094,"state":true,"sceneId":16,"dimming":85}}
+{"method":"syncPilot","env":"pro","params":{"mac":"d8a01149ef50","rssi":-52,"src":"hb","mqttCd":0,"ts":1692280094,"state":true,"sceneId":16,"dimming":85}}
+START REPLAY ATTACK
+#######################################################################################
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"params":{"orig":"andr","state":true},"id":6,"method":"setPilot"}
+
+****************************************************************
+received payload={"method":"setPilot","id":6,"env":"pro","result":{"success":true}}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"result":{"mac":"944250325975"},"method":"syncPilot"}
+****************************************************************
+sent payload={"params":{"homeId":10246828,"phoneIp":"10.14.0.8","phoneMac":"944250325975","register":true},"id":5,"method":"registration"}
+
+****************************************************************
+received payload={"method":"registration","id":5,"env":"pro","result":{"mac":"d8a01149ef50","success":true}}
+****************************************************************
+sent payload={"params":{"phoneIp":"10.14.0.8","phoneMac":"944250325975","register":true},"id":3,"method":"registration"}
+
+****************************************************************
+received payload={"method":"registration","id":3,"env":"pro","result":{"mac":"d8a01149ef50","success":true}}
+****************************************************************
+REPLAY ATTACK NOT SUCCESSFUL WITH CLF=OneClassSVM(gamma='auto', nu=0.001)
+REPLAY ATTACK SUCCESSFUL WITH CLF=IsolationForest(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=EllipticEnvelope(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=LocalOutlierFactor(contamination=0.01, novelty=True)
+REPLAY ATTACK SUCCESSFUL WITH CLF=CustomClassifier()
+END REPLAY ATTACK

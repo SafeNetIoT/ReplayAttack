@@ -81,5 +81,5 @@ When the tool displays in console "Start triggering the device", the user needs 
 When the tool displays in console "Sniffing completed. The attack will start in `DELAY_TIME` seconds", the user needs to set the device in the REVERSE state. <br />
 Now wait for the tool to display in console if the attack has worked or not.
 
-[![Anteprima del mio video](https://img.youtube.com/vi/TXSQ9XJ8Rpc/0.jpg)](https://www.youtube.com/watch?v=TXSQ9XJ8Rpc)
+<!---[![Anteprima del mio video](https://img.youtube.com/vi/TXSQ9XJ8Rpc/0.jpg)](https://www.youtube.com/watch?v=TXSQ9XJ8Rpc)--->
 

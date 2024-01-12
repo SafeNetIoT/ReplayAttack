@@ -1,0 +1,10 @@
+Correct Detections SVM=0
+Correct Detections IF=50
+Correct Detections EE=50
+Correct Detections LO=50
+Correct Detections CC=50
+Accuracy SVM=0.0
+AccuracyIF=1.0
+Accuracy EE=1.0
+Accuracy LO=1.0
+Accuracy CC=1.0

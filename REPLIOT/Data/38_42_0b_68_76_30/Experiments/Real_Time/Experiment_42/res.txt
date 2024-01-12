@@ -1,0 +1,52 @@
+POST /MediaRenderer/AVTransport/Control HTTP/1.1
+SOAPAction: "urn:schemas-upnp-org:service:AVTransport:1#Play"
+Content-type: text/xml; charset=utf8
+Accept: */*
+Content-Length: 270
+User-Agent: node-fetch/1.0 (+https://github.com/bitinn/node-fetch)
+Accept-Encoding: gzip,deflate
+Host: 10.10.0.15:1400
+Connection: close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body><u:Play xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"><InstanceID>0</InstanceID><Speed>1</Speed></u:Play></s:Body>
+</s:Envelope>
+HTTP/1.1 200 OK
+CONTENT-LENGTH: 240
+CONTENT-TYPE: text/xml; charset="utf-8"
+EXT: 
+Server: Linux UPnP/1.0 Sonos/74.0-43312 (ZPS18)
+Connection: close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:PlayResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:PlayResponse></s:Body></s:Envelope>
+START REPLAY ATTACK
+#######################################################################################
+sent payload=POST /MediaRenderer/AVTransport/Control HTTP/1.1
+SOAPAction: "urn:schemas-upnp-org:service:AVTransport:1#Play"
+Content-type: text/xml; charset=utf8
+Accept: */*
+Content-Length: 270
+User-Agent: node-fetch/1.0 (+https://github.com/bitinn/node-fetch)
+Accept-Encoding: gzip,deflate
+Host: 10.10.0.15:1400
+Connection: close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body><u:Play xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"><InstanceID>0</InstanceID><Speed>1</Speed></u:Play></s:Body>
+</s:Envelope>
+****************************************************************
+received payload=HTTP/1.1 200 OK
+CONTENT-LENGTH: 240
+CONTENT-TYPE: text/xml; charset="utf-8"
+EXT: 
+Server: Linux UPnP/1.0 Sonos/74.0-43312 (ZPS18)
+Connection: close
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:PlayResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:PlayResponse></s:Body></s:Envelope>
+****************************************************************
+REPLAY ATTACK NOT SUCCESSFUL WITH CLF=OneClassSVM(gamma='auto', nu=0.001)
+REPLAY ATTACK SUCCESSFUL WITH CLF=IsolationForest(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=EllipticEnvelope(contamination=0.01)
+REPLAY ATTACK SUCCESSFUL WITH CLF=LocalOutlierFactor(contamination=0.01, novelty=True)
+REPLAY ATTACK SUCCESSFUL WITH CLF=CustomClassifier()
+END REPLAY ATTACK

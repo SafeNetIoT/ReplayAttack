@@ -28,7 +28,7 @@ bash ReplayAttack/Training/Training_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTE
 where:
   - SERIAL_NUMBER: Serial number of the phone in ADB.
   - MAC_DEVICE: MAC address of the IoT device.
-  - INTERFACE: Network interface to sniff the traffic.
+  - INTERFACE: Network interface on which the traffic is sniffed.
   - PACKAGE: Package name of the companion app.
   - MAC_SMARTPHONE: MAC address of the smartphone.
 
@@ -41,7 +41,7 @@ bash ReplayAttack/Test/Test_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTERFACE` `
 where:
   - SERIAL_NUMBER: Serial number of the phone in ADB.
   - MAC_DEVICE: MAC address of the IoT device.
-  - INTERFACE: Network interface to sniff the traffic.
+  - INTERFACE: Network interface on which the traffic is sniffed.
   - PACKAGE: Package name of the companion app.
   - MAC_SMARTPHONE: MAC address of the smartphone.
 
@@ -56,7 +56,7 @@ bash ReplayAttack/Training/Training_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC
 ```
 where:
   - MAC_DEVICE: MAC address of the IoT device.
-  - INTERFACE: Network interface to sniff the traffic.
+  - INTERFACE: Network interface on which the traffic is sniffed.
   - MAC_SMARTPHONE: MAC address of the smartphone.
   - SNIFF_TIME: time (seconds) during which the tool sniffs the traffic
 
@@ -71,10 +71,10 @@ bash ReplayAttack/Test/Test_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC_SMARTPH
 ```
 where:
   - MAC_DEVICE: MAC address of the IoT device.
-  - INTERFACE: Network interface to sniff the traffic.
+  - INTERFACE: Network interface on which the traffic is sniffed.
   - MAC_SMARTPHONE: MAC address of the smartphone.
   - SNIFF_TIME: time (seconds) during which the tool sniffs the traffic
-  - DELAY_TIME: time (seconds) during after which the tool starts the replay attack
+  - DELAY_TIME: time (seconds) after which the tool starts the replay attack
 
     
 When the tool displays in console "Start triggering the device", the user needs to set the device in the OBVERSE state. <br />

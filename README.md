@@ -10,12 +10,12 @@ We utilized REPLIOT in a laboratory environment to assess replay attack vulnerab
 For each device under test, follow these steps:
 
 ### Setup
-- Copy the ReplayAttack Folder on the AP. We used a laptop with Ubuntu 20.
+- Copy the REPLIOT Folder on the AP. We used a laptop with Ubuntu 20.
 - Install the companion app of the device on a smartphone (Google Pixel 3a was used in our tests).
 - Select an OBVERSE and the related REVERSE state of the device (e.g., the OBVERSE state is "device ON", while the REVERSE state is "device OFF")
-- Create a folder named with the MAC address of the device inside "ReplayAttack/Test/Result"
-- Within the above folder, create three files: `Fun_coordinates.txt`, `Reverse_coordinates.txt`, `Ground_coordinates.txt`. In `Fun_coordinates.txt`, insert the coordinates to lead the device into the OBVERSE state after the app is open. Similarly, insert coordinates into `Reverse_coordinates.txt` to lead the device into the REVERSE state after the app is open. Often, these two files have the same content. Finally, insert coordinates into `Ground_coordinates.txt` to lead the device into the screen before submitting the OBSERVE command. If you use a Google Pixel 3a, you can copy the coordinates from the folder of the device we used in our laboratory.
-- Within the above folder, create the folder 'Capture'. Insert the screenshot of the smartphone as `Fun_reference.png` when it is in the OBSERVE state. Insert the screenshot of the smartphone as `Reverse_reference.png` when it is in the REVERSE state. If you use a Google Pixel 3a, you can copy the screenshot from the folder of the device we used in our laboratory.
+- Create a folder named with the MAC address of the device inside "REPLIOT/Test/Result"
+- Within the above folder, create three files: `Fun_coordinates.txt`, `Reverse_coordinates.txt`, `Ground_coordinates.txt`. In `Fun_coordinates.txt`, insert the coordinates to lead the device into the OBVERSE state after the app is open. Similarly, insert coordinates into `Reverse_coordinates.txt` to lead the device into the REVERSE state after the app is open. Often, these two files have the same content. Finally, insert coordinates into `Ground_coordinates.txt` to lead the device into the screen before submitting the OBSERVE command. If you use a Google Pixel 3a and one of our devices, you can copy the coordinates from the folder of the device we used in our laboratory.
+- Within the folder "REPLIOT/Test/Result/MAC", create the folder 'Capture'. Insert the screenshot of the smartphone as `Fun_reference.png` when it is in the OBSERVE state. Insert the screenshot of the smartphone as `Reverse_reference.png` when it is in the REVERSE state. If you use a Google Pixel 3a and one of our device, you can copy the screenshot from the folder of the device we used in our laboratory.
 - Crop `Fun_reference.png` and `Reverse_reference.png` by selecting a proper area of each screen. Save the crop area in `Fun_crop.txt` and `Reverse_crop.txt` in the folder 'Capture'. If you use a Google Pixel 3a, you can copy the crop files from the folder of the device we used in our laboratory.
 - Connect the smartphone to the access point to control it via adb.
 
@@ -75,11 +75,12 @@ where:
   - MAC_SMARTPHONE: MAC address of the smartphone.
   - SNIFF_TIME: time (seconds) during which the tool sniffs the traffic
   - DELAY_TIME: time (seconds) after which the tool starts the replay attack
+  - DETECTION: can be ``YES'' or ``NO''. If ``YES'', REPLIOT uses the detection module based on the ML model.
 
     
 When the tool displays in console "Start triggering the device", the user needs to set the device in the OBVERSE state. <br />
 When the tool displays in console "Sniffing completed. The attack will start in `DELAY_TIME` seconds", the user needs to set the device in the REVERSE state. <br />
-Now wait for the tool to display in console if the attack has worked or not.
+If DETECTION is ``YES'', REPLIOT shows in console if the attack has worked or not.
 
 <!---[![Anteprima del mio video](https://img.youtube.com/vi/TXSQ9XJ8Rpc/0.jpg)](https://www.youtube.com/watch?v=TXSQ9XJ8Rpc)--->
 

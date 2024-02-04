@@ -23,7 +23,7 @@ For each device under test, follow these steps:
 
 Lunch the following command: 
 ```bash 
-bash ReplayAttack/Training/Training_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTERFACE` `PACKAGE` `MAC_SMARTPHONE`
+bash Training_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTERFACE` `PACKAGE` `MAC_SMARTPHONE`
 ```
 where:
   - SERIAL_NUMBER: Serial number of the phone in ADB.
@@ -36,7 +36,7 @@ where:
 
 Lunch the following command: 
 ```bash 
-bash ReplayAttack/Test/Test_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTERFACE` `PACKAGE` `MAC_SMARTPHONE`
+bash Test_device.sh `SERIAL_NUMBER` `MAC_DEVICE` `INTERFACE` `PACKAGE` `MAC_SMARTPHONE`
 ```
 where:
   - SERIAL_NUMBER: Serial number of the phone in ADB.
@@ -52,7 +52,7 @@ where:
 
 Lunch the following command: 
 ```bash 
-bash ReplayAttack/Training/Training_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC_SMARTPHONE` `SNIFF_TIME`
+bash Training_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC_SMARTPHONE` `SNIFF_TIME`
 ```
 where:
   - MAC_DEVICE: MAC address of the IoT device.
@@ -67,7 +67,7 @@ When the tool displays in console "Start triggering the device", the user needs 
 
 Lunch the following command: 
 ```bash 
-bash ReplayAttack/Test/Test_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC_SMARTPHONE` `SNIFF_TIME` `DELAY_TIME`
+bash Test_device_home.sh `MAC_DEVICE` `INTERFACE` `MAC_SMARTPHONE` `SNIFF_TIME` `DELAY_TIME`
 ```
 where:
   - MAC_DEVICE: MAC address of the IoT device.

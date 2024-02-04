@@ -33,7 +33,7 @@ AUTOMATIC_DETECTION="$6"
    #get the results of the LOF
    wait
 
-if [ "$res" == "YES" ]; then
+if [ "$AUTOMATIC_DETECTION" == "YES" ]; then
 
 res=$(cat $EXP_FOLDER/res.txt | grep 'WITH CLF=LocalOutlierFactor' | grep 'NOT SUCCESSFUL')
 

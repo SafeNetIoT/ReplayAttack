@@ -1,7 +1,7 @@
 # REPLIOT
 
 REPLIOT is an automatic tool for testing replay attacks in a smart home environment. The tool is designed to be *agnostic* and works with any type of device that communicates with the companion app through the local network. REPLIOT includes a detection module that analyzes the device's responses to automatically determine the success of an attack.
-Through REPLIOT, we performed thousands of automated experiments on 41 commercial IoT devices spanning various vendors and categories. We found that, among these, 15 devices are vulnerable to replay attacks. Details about our study can be found at [Is Your Kettle Smarter Than a Hacker? A Scalable Tool for Assessing Replay Attack Vulnerabilities on Consumer IoT Devices] (https://arxiv.org/pdf/2401.12184.pdf).
+Through REPLIOT, we performed thousands of automated experiments on 41 commercial IoT devices spanning various vendors and categories. We found that, among these, 15 devices are vulnerable to replay attacks. Details about our study can be found at https://arxiv.org/pdf/2401.12184.pdf.
 
     
 
